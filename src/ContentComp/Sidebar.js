@@ -7,7 +7,6 @@ export default function NavBar(){
             <div class="sidebar">
                     <User />
                     <Sugestions />
-
                     <div class="links">
                         Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
                     </div>
