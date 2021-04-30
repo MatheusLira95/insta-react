@@ -1,5 +1,5 @@
-import Stories from "./Stories";
-import Posts from "./Posts";
+import Stories from "./Storie/Stories";
+import Posts from "./Posts/Posts";
 
 export default function Esquerda(){
     return (

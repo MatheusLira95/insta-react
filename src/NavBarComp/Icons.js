@@ -1,11 +1,9 @@
 export default function Icons(){
+    const icons = ["paper-plane-outline","compass-outline","heart-outline","person-outline"]
     return (
         <>
             <div class="icones">
-                <ion-icon name="paper-plane-outline"></ion-icon>
-                <ion-icon name="compass-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+                {icons.map(icon => (<ion-icon name={icon}></ion-icon>))}
             </div>
 
             <div class="icones-mobile">

@@ -1,5 +1,5 @@
-import Esquerda from "./Esquerda";
-import Sidebar from "./Sidebar";
+import Esquerda from "./Esquerda/Esquerda";
+import Sidebar from "./Sidebar/Sidebar";
 export default function Content(){
     return (
         <>
